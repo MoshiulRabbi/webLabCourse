@@ -1,0 +1,41 @@
+body {
+  background-color: rgb(161, 150, 150);
+}
+
+.titles {
+  margin-left: auto;
+  margin-right: auto;
+  width: 18cm;
+  font-size: 250%;
+}
+
+.first-block {
+  margin-top: 100px;
+  margin-left: 250px;
+  margin-right: auto;
+}
+
+.allblock {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: auto;
+  font-size: 120%;
+}
+
+.subblock {
+  text-align: center;
+}
+
+.insubblock {
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.textColor {
+  color: rgb(15, 78, 78);
+  text-decoration: underline;
+}
+
+.subtextcolor {
+  color: rgb(23, 31, 16);
+}
