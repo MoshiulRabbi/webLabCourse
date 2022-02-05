@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(161, 150, 150);
+  background-color: #1d293a;
 }
 
 .titles {
@@ -7,6 +7,7 @@ body {
   margin-right: auto;
   width: 18cm;
   font-size: 250%;
+  color: #00cf5d;
 }
 
 .first-block {
@@ -24,6 +25,8 @@ body {
 
 .subblock {
   text-align: center;
+  font-size: 130%;
+  color: #00cf5d;
 }
 
 .insubblock {
@@ -32,10 +35,26 @@ body {
 }
 
 .textColor {
-  color: rgb(15, 78, 78);
-  text-decoration: underline;
+  font-size: 150%;
+  color: #00cf5d;
 }
 
 .subtextcolor {
   color: rgb(23, 31, 16);
+}
+
+p {
+  color: #edf5e1;
+}
+
+.language-python {
+  color: #edf5e1;
+}
+
+strong {
+  color: #00cf5d;
+}
+
+a {
+  color: #00cf5d;
 }

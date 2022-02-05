@@ -10,11 +10,11 @@
   <body>
     <h1 class="titles">Python Programming Documentation</h1>
     <div class="first-block">
-    <h2 >Are you ready to learn python?</h2>
-    <h2>Lets get started !</h2>
+    <h2 style="color: #00cf5d;">Are You Ready To Learn Python?</h2>
+    <h2 style="color: #00cf5d;">Lets get started !</h2>
     </div>
     <div class="allblock">
-    <h3>Introduction to Python</h3>
+    <h3 class="textColor">Introduction to Python</h3>
     <p>
       Python is a cross-platform programming language, which means that it can
       run on multiple platforms like Windows, macOS, Linux, and has even been
@@ -28,15 +28,14 @@
            printf('Hello world !')
         </code>
      </pre>
-     write this in your preferred IDE and hit the run button and the 'Hello World ' text should show up in your console
+     <p>write this in your preferred IDE and hit the run button and the 'Hello World ' text should show up in your console</p>
     </p>
-    <h3 class="textColor" style="font:larger">Variables</h3>
-    <h3 class="subtextcolor"> Creating Variables</h3>
+    <h3 class="textColor" style="font:larger">Creating Variables</h3>
     <p>
         Python has no command for declaring a variable.
         A variable is created the moment you first assign a value to it.
         <br><br>
-        <b>Example: </b>
+        <strong>Example: </strong>
         <pre class="line-numbers">
         <code class="language-python">
             x = 5
@@ -46,8 +45,8 @@
          </code>
         </pre>
 
-    Variables do not need to be declared with any particular type, 
-    and can even change type after they have been set.
+    <p>Variables do not need to be declared with any particular type, 
+    and can even change type after they have been set.</p>
     <pre class="line-numbers">
         <code class="language-python">
             x = 4       # x is of type int
@@ -101,16 +100,16 @@
     </p>
     <ul class="insubblock">
         <li>
-            <strong>Integers</strong>
-             This value is represented by int class. It contains positive or negative whole numbers (without fraction or decimal).
-             In Python there is no limit to how long an integer value can be.
+            <p><strong>Integers: </strong>
+            This value is represented by int class. It contains positive or negative whole numbers (without fraction or decimal).
+             In Python there is no limit to how long an integer value can be.</p>
         </li>
         <br>
         <li>
-            <strong>Float</strong>
+            <p><strong>Float: </strong>
             This value is represented by float class. It is a real number with floating point representation.
              It is specified by a decimal point. Optionally, the character e or E followed by a positive or 
-             negative integer may be appended to specify scientific notation.
+             negative integer may be appended to specify scientific notation.</p>
         </li>
     </ul>
     <pre class="insubblock">
@@ -130,8 +129,8 @@
     </p>
     <ul class="insubblock">
         <li>
-            <strong>String, lists and Tuple: </strong>
-             Some example code snippet of string , list and tuple are given below
+            <p><strong>String, lists and Tuple: </strong>
+             Some example code snippet of string , list and tuple are given below</p>
         </li>
     </ul>
     <pre class="insubblock">
@@ -172,42 +171,35 @@
     </p>
     <ul class="insubblock">
         <li>
-            <strong>Creating Sets</strong>
+            <p>
+            <strong>Creating Sets: </strong>
             Sets can be created by using the built-in set()
              function with an iterable object or a sequence by placing 
              the sequence inside curly braces, separated by comma. Type of elements
             in a set need not be the same, various mixed-up data type values can also be passed to the set.
+        </p>
         </li>
     </ul>
 
     <pre class="insubblock">
         <code class="language-python">
 
-            # Python program to demonstrate
-            # Creation of Set in Python
-	
             # Creating a Set
+            
             set1 = set()
             print("Initial blank Set: ")
             print(set1)
 	
-            # Creating a Set with
-            # the use of a String
-            set1 = set("GeeksForGeeks")
+            # Creating a Set with String
+
+            set1 = set("Hi, How are you?")
             print("\nSet with the use of String: ")
             print(set1)
 
-            # Creating a Set with
-            # the use of a List
-            set1 = set(["Geeks", "For", "Geeks"])
-            print("\nSet with the use of List: ")
-            print(set1)
+            # Creating a Set with List
 
-            # Creating a Set with
-             a mixed type of values
-            # (Having numbers and strings)
-            set1 = set([1, 2, 'Geeks', 4, 'For', 6, 'Geeks'])
-            print("\nSet with the use of Mixed Values")
+            set1 = set(["Hi", "hello", "Geeks"])
+            print("\nSet with the use of List: ")
             print(set1)
 
          </code>
@@ -227,11 +219,12 @@
     </p>
     <ul class="insubblock">
         <li>
-            <strong>Creating Dictionary</strong>
+            <p><strong>Creating Dictionary</strong>
             In Python, a Dictionary can be created by placing a sequence of elements within curly {} braces,
              separated by comma. Values in a dictionary can be of any datatype and can be duplicated, whereas
               keys cant be repeated and must be immutable. Dictionary can also be created by the built-in function
                dict(). An empty dictionary can be created by just placing it to curly braces{}.
+            </p>
         </li>
     </ul>
 
@@ -252,10 +245,12 @@
     <p class="insubblock">Python programming language provides following types of loops to handle looping requirements.</p>
     <ul class="insubblock">
         <li>
+            <p>
             In Python, all the statements indented by the same number of
             character spaces after a programming construct are considered
             to be part of a single block of code.
             Python uses indentation as its method of grouping statements.
+        </p>
         </li>
     </ul>
     <pre class="insubblock">
@@ -301,5 +296,7 @@
     </pre>
     <!-- -->
 </div>
+<hr>
+<center><strong>© 2022 Rabbi</strong></center>
   </body>
 </html>
